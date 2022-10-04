@@ -1,0 +1,57 @@
+.introduction-section {
+    height: 89vh;
+    background-color: #f2f0eb;
+    position: relative;
+
+    .intro {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        width: 50%;
+        top: 25%;
+        left: 28%;
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 3rem;
+            letter-spacing: 6px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.5rem;
+            letter-spacing: 1px;
+            line-height: 1.2;
+        }
+
+        .download-button {
+            display: flex;
+            justify-content: center;
+
+            button {
+                border: none;
+                background-color: black;
+                color: #fff;
+                padding: 1rem 4rem;
+                text-transform: uppercase;
+                border-radius: 25px;
+                font-weight: bold;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .into-social {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        padding: 1rem;
+        width: 4rem;
+        span {
+            font-size: 2rem;
+            padding:0.5rem 0;
+        }
+    }
+}
