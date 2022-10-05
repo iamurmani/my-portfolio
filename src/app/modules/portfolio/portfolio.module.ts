@@ -8,6 +8,8 @@ import { AboutMeComponent } from './components/page-body/about-me/about-me.compo
 import { ProjectsComponent } from './components/page-body/projects/projects.component';
 import { ContactComponent } from './components/page-body/contact/contact.component';
 import { FooterComponent } from './components/page-body/footer/footer.component';
+import { MaterialModule } from '../material/material.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -15,7 +17,9 @@ import { FooterComponent } from './components/page-body/footer/footer.component'
   declarations: [PageBodyComponent, HeaderComponent, IntroductionComponent, AboutMeComponent, ProjectsComponent, ContactComponent, FooterComponent],
   imports: [
     CommonModule,
-    PortfolioRoutingModule
+    PortfolioRoutingModule,
+    MaterialModule,
+    SharedModule
   ]
 })
 export class PortfolioModule { }
