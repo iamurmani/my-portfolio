@@ -6,31 +6,6 @@
     // width: 90%;
     // margin: auto;
 
-    .section-title {
-        margin-top: 3rem;
-
-        h2 {
-            text-align: center;
-            text-transform: uppercase;
-            font-size: 3rem;
-        }
-
-        .line {
-            display: flex;
-            justify-content: center;
-            margin-top: 1rem;
-
-            span {
-                height: 5px;
-                width: 2rem;
-                background-color: #000;
-                display: flex;
-                justify-content: center;
-                border-radius: 5px;
-            }
-        }
-    }
-
     .about-me {
         display: flex;
         gap: 4rem;
